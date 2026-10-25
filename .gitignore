@@ -1,0 +1,30 @@
+
+# Node.js
+**/node_modules/
+**/npm-debug.log*
+
+# Hardhat
+**/artifacts/
+**/cache/
+**/coverage/
+**/ignition/deployments/
+
+# Environment variables and secrets
+**/.env
+**/.env.*
+!**/.env.example
+**/*.pem
+**/*.key
+
+# Local editor and AI files
+**/.vscode/
+**/.idea/
+**/.agents/
+**/.claude/
+**/.deps/
+**/AGENTS.md
+**/CLAUDE.md
+
+# Operating system
+.DS_Store
+Thumbs.db
